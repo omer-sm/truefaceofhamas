@@ -37,7 +37,7 @@ export default function AfterPageContainer({ transitionStage, isDesktopLayout,
                 transition: "opacity 600ms ease-in"
             }}>You decided to stop. <Typography color="danger"
                 sx={{ opacity: transitionStage > 1 ? "100%" : "0", transition: "opacity 800ms ease-in" }}
-            >The civilians of southern israel could not.</Typography></Typography>
+            >The citizens of southern israel could not.</Typography></Typography>
             <Typography level="title-lg" sx={{
                 opacity: transitionStage > 2 ? "100%" : "0",
                 transition: "opacity 600ms ease-in"
