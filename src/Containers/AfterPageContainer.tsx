@@ -25,6 +25,8 @@ export default function AfterPageContainer({ transitionStage, isDesktopLayout,
             }
             if (navigator.canShare(shareData) && !isDesktopLayout) {
                 navigator.share(shareData)
+            } else {
+                setIsShareTooltipVisible((p: boolean) => !p)
             }
         } else {
             setIsShareTooltipVisible((p: boolean) => !p)
